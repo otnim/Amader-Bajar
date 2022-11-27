@@ -1,0 +1,88 @@
+/* custom css starts */
+:root {
+  --color-accent: #ff3400;
+  --hover-accent: #bb4426;
+  --color-heading: #1b0760;
+  --color-body: #918ca4;
+  --color-white: #fff;
+
+  --pink-button: #db4a87;
+  --pink-button-hover: #2c0f1b;
+
+  --green-button: #3eba70;
+  --green-hover: #176536;
+  /* --cool-background: rgba(160, 211, 185, 0.801); */
+  --cool-background: #c2c2c2b4;
+}
+
+/* buttons cb => custom-button*/
+.cb {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: uppercase;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  margin: 1rem 0;
+  border: 0;
+  /* border: 1px solid transparent; */
+}
+.cb-cool{
+  background-color: var(--cool-background);
+}
+
+.cb-block {
+  width: 100%;
+  display: inline-block;
+}
+
+.cb--accent {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+}
+
+.cb--accent:hover {
+  background-color: var(--hover-accent);
+  color: var(--color-white);
+}
+
+.cb-pink {
+  background-color: var(--pink-button);
+  color: var(--color-white);
+}
+
+.cb-pink:hover {
+  background-color: var(--pink-button-hover);
+  color: var(--color-white);
+}
+
+.cb-green {
+  background-color: var(--green-button);
+  color: var(--color-white);
+}
+
+.cb-green:hover {
+  background-color: var(--green-hover);
+  color: var(--color-white);
+}
+
+.crp {
+  cursor: pointer;
+}
+
+.left-nav {
+  /* height: 100vh; */
+  height: 100%;
+}
+
+.taka {
+  font-size: 25px;
+  font-weight: 900;
+  font-stretch: expanded;
+}
+.log{
+  height: 400px;
+}
